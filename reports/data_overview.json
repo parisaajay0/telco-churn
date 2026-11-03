@@ -1,0 +1,129 @@
+{
+  "source": {
+    "path": "C:\\Users\\paris\\telco-churn\\data\\raw\\telco.csv",
+    "size_bytes": 970457,
+    "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91"
+  },
+  "environment": {
+    "python_version": "3.12.16 (main, Oct 26 2026, 14:10:56) [MSC v.1944 64 bit (AMD64)]",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "pandas_version": "3.1.0"
+  },
+  "dataset": {
+    "shape": {
+      "rows": 7043,
+      "columns": 21
+    },
+    "columns": [
+      "customerID",
+      "gender",
+      "SeniorCitizen",
+      "Partner",
+      "Dependents",
+      "tenure",
+      "PhoneService",
+      "MultipleLines",
+      "InternetService",
+      "OnlineSecurity",
+      "OnlineBackup",
+      "DeviceProtection",
+      "TechSupport",
+      "StreamingTV",
+      "StreamingMovies",
+      "Contract",
+      "PaperlessBilling",
+      "PaymentMethod",
+      "MonthlyCharges",
+      "TotalCharges",
+      "Churn"
+    ],
+    "dtypes": {
+      "customerID": "str",
+      "gender": "str",
+      "SeniorCitizen": "int64",
+      "Partner": "str",
+      "Dependents": "str",
+      "tenure": "int64",
+      "PhoneService": "str",
+      "MultipleLines": "str",
+      "InternetService": "str",
+      "OnlineSecurity": "str",
+      "OnlineBackup": "str",
+      "DeviceProtection": "str",
+      "TechSupport": "str",
+      "StreamingTV": "str",
+      "StreamingMovies": "str",
+      "Contract": "str",
+      "PaperlessBilling": "str",
+      "PaymentMethod": "str",
+      "MonthlyCharges": "float64",
+      "TotalCharges": "str",
+      "Churn": "str"
+    }
+  },
+  "target": {
+    "column": "Churn",
+    "counts": {
+      "No": 5174,
+      "Yes": 1869
+    },
+    "proportions": {
+      "No": 0.7346,
+      "Yes": 0.2654
+    }
+  },
+  "identifier": {
+    "column": "customerID",
+    "duplicate_count": 0,
+    "unique_count": 7043
+  },
+  "missing_values": {
+    "isna_counts": {
+      "customerID": 0,
+      "gender": 0,
+      "SeniorCitizen": 0,
+      "Partner": 0,
+      "Dependents": 0,
+      "tenure": 0,
+      "PhoneService": 0,
+      "MultipleLines": 0,
+      "InternetService": 0,
+      "OnlineSecurity": 0,
+      "OnlineBackup": 0,
+      "DeviceProtection": 0,
+      "TechSupport": 0,
+      "StreamingTV": 0,
+      "StreamingMovies": 0,
+      "Contract": 0,
+      "PaperlessBilling": 0,
+      "PaymentMethod": 0,
+      "MonthlyCharges": 0,
+      "TotalCharges": 0,
+      "Churn": 0
+    },
+    "empty_or_whitespace_counts": {
+      "customerID": 0,
+      "gender": 0,
+      "SeniorCitizen": 0,
+      "Partner": 0,
+      "Dependents": 0,
+      "tenure": 0,
+      "PhoneService": 0,
+      "MultipleLines": 0,
+      "InternetService": 0,
+      "OnlineSecurity": 0,
+      "OnlineBackup": 0,
+      "DeviceProtection": 0,
+      "TechSupport": 0,
+      "StreamingTV": 0,
+      "StreamingMovies": 0,
+      "Contract": 0,
+      "PaperlessBilling": 0,
+      "PaymentMethod": 0,
+      "MonthlyCharges": 0,
+      "TotalCharges": 11,
+      "Churn": 0
+    }
+  }
+}
